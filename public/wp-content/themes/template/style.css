@@ -1,0 +1,191 @@
+#wpadminbar{
+    display: none;
+}
+.d_search{
+    display: flex;
+}
+.d_search input{
+    width: calc(100% - 40px);
+    height: 30px;
+    border: none;
+    background: #fff;
+}
+.d_search button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    background: #fff;
+}
+.container
+{
+	max-width:1170px!important;
+}
+#homepage .mainmenu .submenu0{
+    display: block !important;
+}
+.d_path {
+    margin: 10px 0;
+}
+.d_path .breadcrumbs a {
+    color: #00cc66;
+}
+.checkbox_item{
+    padding: 5px 10px;
+}
+
+
+#layoutGroup4 .block .blockcontent {
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contentid.collapse:not(.show){
+    display: block !important;
+}
+#wpdcom{
+    max-width: 100%;
+}
+
+#cart_popup{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.07);
+    z-index: 10000;
+    display: none;
+}
+#overlay{
+    display: none;
+ }
+
+.checkbox_item.active a{
+    color: #0c6 !important;
+    font-weight: bold;
+}
+#layoutGroup5 {
+    margin-right: 0;
+}
+#layoutGroup1 .block h1, #layoutGroup4 .block h1{
+    margin-top: 0;
+}
+
+.group_vertical_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.group_vertical_container .image{
+    margin-right: 15px;
+}
+.product_vertical_contener .d_pro_content{
+    width: calc(100% - 160px);
+}
+
+.product_vertical_contener .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product_vertical_contener .d_price_group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_vertical_contener .d_price_group .rootprice{
+    margin-left: 15px;
+}
+.product_contener .intro{
+    display: none;
+}
+.product_vertical_contener .intro{
+    display: -webkit-box;;
+}
+
+.owl-carousel .product_contener{
+    width: 100%;
+}
+
+.d_navigation.d_custom ul li.active{
+    background: #00cc66;
+    border: none;
+}
+
+.d_navigation.d_custom ul li a{
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.d_navigation.d_custom ul li{
+    background: #ccc;
+    margin: 0 5px;
+}
+.ul-left-menu .collapse{
+   height: auto;
+    overflow: initial;
+}
+
+
+
+
+/**/
+
+/*.product_contener{*/
+/*    width: 130px;*/
+/*}*/
+/*.products{*/
+/*    padding: 0;*/
+/*}*/
+
+
+.products {
+    width: 130px;
+    padding: 0;
+    margin: 0 auto;
+}
+.product_vertical_contener .products{
+    width: 100%;
+}
+
+.goshop a, .outofstock a, .booking a{
+    position: initial;
+}
+.product_info .prices_contener{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#layoutGroup4 .product_contener{
+    margin: 20px 0;
+}
+
+.showleft .goshop a, .showleft .outofstock a,.showleft .booking a{
+    position: absolute;
+}
+.list_danh_sach_tk li 
+{
+	width: 100%;
+    text-align: left;
+    border-bottom: dashed 1px #ccc;
+    margin: 0px!important;
+}
+.goshop button
+{  
+    padding: 10px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    white-space: nowrap;
+	background-color: #ff3300;
+	border:none;
+}
+.fixed-table-body
+{
+	height:auto!important;
+}
+.h1_title
+{
+	font-weight:bold!important;
+}
